@@ -23,7 +23,7 @@ type Config struct {
 	Port            int
 	LogOutputPath   io.Writer
 	LogLevel        log.Lvl
-	DefLogger       log.Logger
+	DefLogger       *log.Logger
 	FileSystem      fs.FS
 	IndexPath       string
 	TemplatesPath   string
